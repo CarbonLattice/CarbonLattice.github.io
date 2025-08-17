@@ -59,7 +59,7 @@ enable_search = true
 theme = "toggle" # options: {light, dark, auto, toggle}
 
 # Comment sections
-# comments = true
-# giscus_repo = "micahkepe/blog"
-# giscus_repo_id = "R_kgDONfHznQ"
-# giscus_data_category_id = "DIC_kwDONfHznc4CnQJ4"
+comments = true
+giscus_repo = "carbon-creations/carbon-creations.github.io"
+giscus_repo_id = "R_kgDOPfjhFw"
+giscus_data_category_id = "DIC_kwDOPfjhF84CuR8-"
