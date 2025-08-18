@@ -1,4 +1,4 @@
-base_url = "https://carbon-creations.github.io/"
+base_url = "https://CarbonLattice.github.io/"
 title = "carbons insanity"
 theme = "radion"
 description = "An assortment of my ramblings and random adventures."
@@ -37,7 +37,7 @@ index_format = "elasticlunr_json"
 # Put all your custom variables here
 radion_title = "carbons insanity"
 author = "Carbon"
-github = "https://github.com/carbon-creations"
+github = "https://github.com/CarbonLattice"
 radion_menu = [
     {url = "$BASE_URL/", name = "Home"},
     {url = "$BASE_URL/categories", name = "Categories"},
@@ -59,6 +59,6 @@ theme = "toggle" # options: {light, dark, auto, toggle}
 
 # Comment sections
 comments = true
-giscus_repo = "carbon-creations/carbon-creations.github.io"
+giscus_repo = "CarbonLattice/CarbonLattice.github.io"
 giscus_repo_id = "R_kgDOPfjhFw"
 giscus_data_category_id = "DIC_kwDOPfjhF84CuR8-"
