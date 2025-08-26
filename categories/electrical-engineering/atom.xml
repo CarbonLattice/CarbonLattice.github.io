@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>carbons descent into madness - Electrical-Engineering</title>
+    <subtitle>An assortment of my ramblings and random adventures.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://CarbonLattice.github.io/categories/electrical-engineering/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://CarbonLattice.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-08-25T00:00:00+00:00</updated>
+    <id>https://CarbonLattice.github.io/categories/electrical-engineering/atom.xml</id>
+    <entry xml:lang="en">
+        <title>The Outline of a Skeleton of a Plan</title>
+        <published>2025-08-25T00:00:00+00:00</published>
+        <updated>2025-08-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://CarbonLattice.github.io/robot-pcb/"/>
+        <id>https://CarbonLattice.github.io/robot-pcb/</id>
+        
+        <content type="html" xml:base="https://CarbonLattice.github.io/robot-pcb/">&lt;h2 id=&quot;the-plan&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-plan&quot; aria-label=&quot;Anchor link for: the-plan&quot;&gt;THE PLAN&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Based on my writings, you may or may not be able to tell that I don’t exactly know what I’m doing—and that I may or may not be a bit &lt;em&gt;special ed&lt;&#x2F;em&gt;. That’s definitely true in most cases. I usually have a hard time with both motivation and attention.&lt;&#x2F;p&gt;
+&lt;p&gt;Part of my plan is to work on a robot main control board as a way of keeping my ADHD brain entertained, so the other part can focus on actually getting things done and learning.&lt;&#x2F;p&gt;
+&lt;p&gt;Almost certainly this board will never be produced in any meaningful way, and the design will probably just sit on my GitHub to perish. But hey, hopefully I learn something from it—and maybe the experience can help me land a job, since I feel too stupid to go to higher education.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;anyway&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#anyway&quot; aria-label=&quot;Anchor link for: anyway&quot;&gt;Anyway&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;The plan is to use an &lt;strong&gt;STM32 M7 core&lt;&#x2F;strong&gt; with a bunch of sensors and connectivity options.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;IIS2MDC&lt;&#x2F;strong&gt; – 3-axis magnetometer from STMicro&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;LSM6DSV16X&lt;&#x2F;strong&gt; – High-end IMU with accelerometers and gyroscopes&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;TESEO-LIV3FL&lt;&#x2F;strong&gt; – GNSS module with a matching PCB-mount patch antenna&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;For communication:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2× CAN FD&lt;&#x2F;strong&gt; lanes with matching transceivers&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Bluetooth&#x2F;Wi-Fi module&lt;&#x2F;strong&gt; with a PCB antenna&lt;&#x2F;li&gt;
+&lt;li&gt;Basic &lt;strong&gt;SBUS&lt;&#x2F;strong&gt; and other connectors&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;My plan is to reach out to some people online and see if they have suggestions—maybe there’s something useful I can add.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;stm-supremacy&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#stm-supremacy&quot; aria-label=&quot;Anchor link for: stm-supremacy&quot;&gt;STM Supremacy&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;The reason so many parts are from STM is that they have good software support, solid documentation for hardware design, and their parts are commonly used.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Boron Dev Boards</title>
+        <published>2025-08-17T00:00:00+00:00</published>
+        <updated>2025-08-17T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://CarbonLattice.github.io/boron-dev-boards/"/>
+        <id>https://CarbonLattice.github.io/boron-dev-boards/</id>
+        
+        <content type="html" xml:base="https://CarbonLattice.github.io/boron-dev-boards/">&lt;h2 id=&quot;introduction&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#introduction&quot; aria-label=&quot;Anchor link for: introduction&quot;&gt;Introduction&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;The Boron series of dev boards is my attempt to learn and practice KiCad and PCB design while (hopefully) also making something that’s at least somewhat useful.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;inspiration&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#inspiration&quot; aria-label=&quot;Anchor link for: inspiration&quot;&gt;Inspiration&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;The inspiration behind this project is fairly simple: I think the dev boards produced by STM and other manufacturers, while nice, are often too basic and don’t take advantage of the more interesting features included in the MCUs themselves.&lt;&#x2F;p&gt;
+&lt;p&gt;I first came to this conclusion when working on another project where I wanted to experiment with CAN and CAN loopback. The STM32F446 I was using included two CAN peripherals — but none of the additional passive or active components needed to actually make use of them.&lt;&#x2F;p&gt;
+&lt;p&gt;Other missing features I found odd included:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Various crystals for better precision&lt;&#x2F;li&gt;
+&lt;li&gt;Standard connectors&lt;&#x2F;li&gt;
+&lt;li&gt;USB-C support&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;So I set out to come up with a potential solution: design a board that has those extra peripheral, passive, and active parts already included.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-lineup-so-far&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-lineup-so-far&quot; aria-label=&quot;Anchor link for: the-lineup-so-far&quot;&gt;The Lineup So Far&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Here are the MCUs I’ve chosen so far:&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;stm32g0b0ke&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#stm32g0b0ke&quot; aria-label=&quot;Anchor link for: stm32g0b0ke&quot;&gt;STM32G0B0KE&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;This is the smallest (and hopefully simplest) option. My plan is to include only the most basic peripherals while keeping the board size very small — around the size of a Teensy LC or 4.0.&lt;&#x2F;p&gt;
+&lt;p&gt;A potential use case would be as the MCU for custom keyboards, which currently most often use Arduino Nano or RP2040. That said, this may be less practical, since existing keyboard firmware expects USB programming via DFU — something I don’t think this chip currently supports.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;stm32f205re&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#stm32f205re&quot; aria-label=&quot;Anchor link for: stm32f205re&quot;&gt;STM32F205RE&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;This would (hopefully) be the next step up in the lineup. It wasn’t chosen for any specific reason beyond the fact that it uses an M33 core instead of the more common M4 core (which is what most third-party dev boards use).&lt;&#x2F;p&gt;
+&lt;p&gt;It also includes CAN and two USB peripherals, making it a solid mid-range option.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;stm32h563vi&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#stm32h563vi&quot; aria-label=&quot;Anchor link for: stm32h563vi&quot;&gt;STM32H563VI&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;This is the higher-end model, and it includes a lot of interesting features:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;USB PD&lt;&#x2F;li&gt;
+&lt;li&gt;CAN FD&lt;&#x2F;li&gt;
+&lt;li&gt;Ethernet&lt;&#x2F;li&gt;
+&lt;li&gt;DCMI&#x2F;PSSI port for connecting cameras&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The camera interface is particularly exciting — running basic computer vision on low-power MCUs is something I find fascinating and could see direct applications for.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;stm32n657x0&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#stm32n657x0&quot; aria-label=&quot;Anchor link for: stm32n657x0&quot;&gt;STM32N657X0&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;This is the last one in the lineup, and definitely the least likely for me to attempt right now. It’s based on one of the newest Cortex cores and includes a lot of advanced features that I don’t currently understand well enough to implement.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#conclusion&quot; aria-label=&quot;Anchor link for: conclusion&quot;&gt;Conclusion&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;That’s it for the introduction to this project. Honestly, it’s way above what I would currently consider myself capable of — but that’s often how I learn, and how I push myself forward. Even if it feels “impossible” now, the process itself is worth it.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
